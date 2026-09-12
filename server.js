@@ -95,6 +95,6 @@ app.delete('/todos/:id', (req, res) => {
 const PORT = 5000;
 app.listen(PORT, () => {
   console.log(`================================================`);
-  console.log(`🚀 API Imperativa rodando em: http://localhost:${PORT}`);
+  console.log(`API rodando em: http://localhost:${PORT}`);
   console.log(`================================================`);
 });
