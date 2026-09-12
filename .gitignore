@@ -1,4 +1,3 @@
-# Dependências e logs do Node.js
 node_modules/
 *.log
 npm-debug.log*
@@ -6,12 +5,12 @@ yarn-debug.log*
 yarn-error.log*
 .pnpm-debug.log*
 
-# Arquivos de sistema operacional e IDE
+
 .DS_Store
 Thumbs.db
 .vscode/
 .idea/
 
-# Documentação, materiais de aula e scripts de apoio (Mantidos apenas localmente)
+
 docs/
 scripts/
