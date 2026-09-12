@@ -40,7 +40,7 @@ app.post('/todos', (req, res) => {
   res.status(201).json(newTodo);
 });
 
-// Suporta tanto /toggle (utilizado pelo front-end) quanto /complete (mencionado no slide da Aula 04)
+// Suporta tanto /toggle (utilizado pelo front-end) quanto /complete
 const toggleHandler = (req, res) => {
   const id = Number(req.params.id);
 

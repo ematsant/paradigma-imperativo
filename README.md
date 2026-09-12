@@ -63,7 +63,3 @@ O servidor estará rodando em `http://localhost:5000`.
 | **DELETE** | `/todos/:id` | Remove uma tarefa da lista |
 
 ---
-
-## 📝 Licença
-Este projeto foi desenvolvido para fins educacionais.
-# paradigma-imperativo
