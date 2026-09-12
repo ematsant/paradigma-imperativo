@@ -2,7 +2,7 @@
 
 Esta é uma API REST desenvolvida em **Node.js** com **Express**, criada como projeto prático para a disciplina de **Paradigmas da Linguagem de Programação**. 
 
-O objetivo principal desta API é demonstrar a aplicação prática do **Paradigma Imperativo** no desenvolvimento de software e servir de backend para o frontend da lista de tarefas do professor.
+O objetivo principal desta API é demonstrar a aplicação prática do **Paradigma Imperativo** no desenvolvimento de software e servir de backend para o frontend da lista de tarefas.
 
 ---
 
@@ -24,7 +24,7 @@ Nesta API, a lógica de manipulação de dados foi construída seguindo estritam
 
 ---
 
-## 🚀 Como Executar e Testar com a Equipe
+## 🚀 Como Executar e Testar
 
 ### 1. Clonar o repositório
 ```bash
@@ -45,7 +45,7 @@ O servidor estará rodando em `http://localhost:5000`.
 
 ### 4. Abrir e Testar o Frontend
 1. Navegue até a pasta `frontend_professor/paradigmas/todo-list/`.
-2. Abra o arquivo `index.html` no seu navegador (basta dar duplo clique).
+2. Abra o arquivo `index.html` no seu navegador.
 3. Na interface do site, altere a chave de alternância no topo de **"Modo local"** para **"Modo API"**.
 4. Teste criar, concluir e deletar tarefas na interface — todas as requisições serão processadas pela sua API em Node.js na porta 5000!
 
