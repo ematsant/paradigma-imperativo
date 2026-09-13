@@ -25,7 +25,7 @@ app.post('/todos', (req, res) => {
   const title = body ? body.title : undefined;
 
   if (!title || typeof title !== 'string' || title.trim() === '') {
-    return res.status(400).json({ error: "O título da tarefa é obrigatório." });
+    return res.status(400).json({ error: "O título da tarefa é invalido." });
   }
 
   const newTodo = {
